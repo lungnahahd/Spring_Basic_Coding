@@ -15,7 +15,7 @@ import hello.servlet.basic.domain.member.MemberRepository;
 
 
 @SuppressWarnings("serial")
-@WebServlet(name = "memberListServlet", urlPatterns = "servlet/members")
+@WebServlet(name = "memberListServlet", urlPatterns = "/servlet/members")
 public class MemberListServlet extends HttpServlet
 {
 	private MemberRepository memberRepository = MemberRepository.getInstance();
